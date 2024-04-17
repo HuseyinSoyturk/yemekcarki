@@ -139,6 +139,8 @@ function App() {
           <div>Tebrikler {showModal.en_unlu_yemek} kazandiniz!!!</div>
         </div>
       </div>}
+      <div className="copyright" >© Tum hakki Huseyin Soyturk
+        makina tekstil gıda sağlık otomotiv mobilya dayanıklı tüketim malları ithalat ve ihracat limited şirketinde saklidir. 2024</div>
     </div>
   );
 }
