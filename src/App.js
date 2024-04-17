@@ -136,7 +136,9 @@ function App() {
         <div class="modal-content">
           <div onClick={() => { setshowModal() }} class="close">&times;</div>
           <h1>{showModal.il}</h1>
-          <div>Tebrikler {showModal.en_unlu_yemek} kazandiniz!!!</div>
+          <div>Tebrikler {showModal.en_unlu_yemek} kazandiniz!!!*</div>
+          <div style={{fontSize:"3px"}}>*
+Cekilis sadece bilgilendirme amacli olup Huseyin Soyturk makina tekstil gıda sağlık otomotiv mobilya dayanıklı tüketim malları ithalat ve ihracat limited şirketi hicbir sorumluluk almamaktadir.</div>
         </div>
       </div>}
       <div className="copyright" >© Tum hakki Huseyin Soyturk
