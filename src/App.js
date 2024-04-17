@@ -3,7 +3,7 @@ import Map from 'ol/Map.js';
 import OSM from 'ol/source/OSM.js';
 import TileLayer from 'ol/layer/Tile.js';
 import View from 'ol/View.js';
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import "ol/ol.css";
 import VectorLayer from 'ol/layer/Vector';
 import VectorSource from 'ol/source/Vector';
@@ -21,17 +21,6 @@ function App() {
   const [showModal, setshowModal] = useState()
   const [iller, setiller] = useState({})
   const [yemekler, setyemekler] = useState({})
-
-  const hlLayer = new VectorLayer({
-    source: new VectorSource({
-      format: new GeoJSON(),
-    }),
-    style: new Style({
-      fill: new Fill({
-        color: '#580f27'
-      })
-    })
-  })
 
   const geoJson = new GeoJSON({ dataProjection: "EPSG:4326", featureProjection: "EPSG:3857" })
 
@@ -64,11 +53,11 @@ function App() {
       .then(function (myJson) {
         setyemekler(myJson);
       });
-  } , [])
+  }, [])
 
   useEffect(() => {
     let map;
-    if (mapRef , iller.features) {
+    if (mapRef && iller.features) {
       map = new Map({
         layers: [
           new TileLayer({
@@ -89,7 +78,16 @@ function App() {
               }),
             })
           }),
-          hlLayer
+          new VectorLayer({
+            source: new VectorSource({
+              format: new GeoJSON(),
+            }),
+            style: new Style({
+              fill: new Fill({
+                color: '#580f27'
+              })
+            })
+          })
         ],
         target: 'map',
         view: new View({
@@ -106,7 +104,7 @@ function App() {
         setMapState();
       }
     }
-  }, [mapRef , iller])
+  }, [mapRef, iller])
 
   const handleClick = () => {
     setButtonDisabled(true)
@@ -125,9 +123,7 @@ function App() {
     setTimeout(() => {
       setButtonDisabled(false)
       clearInterval(interval)
-      console.log(data);
       const yemek = yemekler.iller.find(obj => obj.il === data.properties.name);
-      console.log(yemek);
       setshowModal(yemek)
     }, 2000);
   }
