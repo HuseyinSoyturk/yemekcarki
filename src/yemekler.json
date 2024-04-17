@@ -1,0 +1,328 @@
+{
+  "iller": [
+    {
+      "il": "Adana",
+      "en_unlu_yemek": "Adana Kebabı"
+    },
+    {
+      "il": "Adıyaman",
+      "en_unlu_yemek": "Analı Kızlı"
+    },
+    {
+      "il": "Afyonkarahisar",
+      "en_unlu_yemek": "Kaymaklı Ekmek Kadayıfı"
+    },
+    {
+      "il": "Ağrı",
+      "en_unlu_yemek": "Kürt Böreği"
+    },
+    {
+      "il": "Aksaray",
+      "en_unlu_yemek": "Aksarayın Dibi"
+    },
+    {
+      "il": "Amasya",
+      "en_unlu_yemek": "Borani"
+    },
+    {
+      "il": "Ankara",
+      "en_unlu_yemek": "Kuzu Tandır"
+    },
+    {
+      "il": "Antalya",
+      "en_unlu_yemek": "Testi Kebabı"
+    },
+    {
+      "il": "Ardahan",
+      "en_unlu_yemek": "Kars Kazı"
+    },
+    {
+      "il": "Artvin",
+      "en_unlu_yemek": "Muhlama"
+    },
+    {
+      "il": "Aydın",
+      "en_unlu_yemek": "Tandır Kebabı"
+    },
+    {
+      "il": "Balıkesir",
+      "en_unlu_yemek": "Bandırma İncisi"
+    },
+    {
+      "il": "Bartın",
+      "en_unlu_yemek": "Cılbır"
+    },
+    {
+      "il": "Batman",
+      "en_unlu_yemek": "Mıhlama"
+    },
+    {
+      "il": "Bayburt",
+      "en_unlu_yemek": "Cıvıklı"
+    },
+    {
+      "il": "Bilecik",
+      "en_unlu_yemek": "Su Böreği"
+    },
+    {
+      "il": "Bingöl",
+      "en_unlu_yemek": "Cızlak"
+    },
+    {
+      "il": "Bitlis",
+      "en_unlu_yemek": "Babagannuş"
+    },
+    {
+      "il": "Bolu",
+      "en_unlu_yemek": "Köpoğlu"
+    },
+    {
+      "il": "Burdur",
+      "en_unlu_yemek": "Kuyu Tandır"
+    },
+    {
+      "il": "Bursa",
+      "en_unlu_yemek": "İskender"
+    },
+    {
+      "il": "Çanakkale",
+      "en_unlu_yemek": "Çanakkale Pilavı"
+    },
+    {
+      "il": "Çankırı",
+      "en_unlu_yemek": "Mumbar Dolması"
+    },
+    {
+      "il": "Çorum",
+      "en_unlu_yemek": "Hitit Çorbası"
+    },
+    {
+      "il": "Denizli",
+      "en_unlu_yemek": "Kuzu Güveç"
+    },
+    {
+      "il": "Diyarbakır",
+      "en_unlu_yemek": "Meftune"
+    },
+    {
+      "il": "Düzce",
+      "en_unlu_yemek": "Hamsiköy Tatlısı"
+    },
+    {
+      "il": "Edirne",
+      "en_unlu_yemek": "Tava Ciğeri"
+    },
+    {
+      "il": "Elazığ",
+      "en_unlu_yemek": "Çılbır"
+    },
+    {
+      "il": "Erzincan",
+      "en_unlu_yemek": "Kemaliye Tavası"
+    },
+    {
+      "il": "Erzurum",
+      "en_unlu_yemek": "Cağ Kebabı"
+    },
+    {
+      "il": "Eskişehir",
+      "en_unlu_yemek": "Tarhana Çorbası"
+    },
+    {
+      "il": "Gaziantep",
+      "en_unlu_yemek": "Baklava"
+    },
+    {
+      "il": "Giresun",
+      "en_unlu_yemek": "Pide"
+    },
+    {
+      "il": "Gümüşhane",
+      "en_unlu_yemek": "Kuymak"
+    },
+    {
+      "il": "Hakkari",
+      "en_unlu_yemek": "Çılbır"
+    },
+    {
+      "il": "Hatay",
+      "en_unlu_yemek": "Antakya Kebabı"
+    },
+    {
+      "il": "Iğdır",
+      "en_unlu_yemek": "Dövme Mantı"
+    },
+    {
+      "il": "Isparta",
+      "en_unlu_yemek": "Bıldırcın Dolması"
+    },
+    {
+      "il": "İstanbul",
+      "en_unlu_yemek": "İskender"
+    },
+    {
+      "il": "İzmir",
+      "en_unlu_yemek": "İzmir Köfte"
+    },
+    {
+      "il": "Kahramanmaraş",
+      "en_unlu_yemek": "Maraş Dondurması"
+    },
+    {
+      "il": "Karabük",
+      "en_unlu_yemek": "Karabük Kavurma"
+    },
+    {
+      "il": "Karaman",
+      "en_unlu_yemek": "Testi Kebabı"
+    },
+    {
+      "il": "Kars",
+      "en_unlu_yemek": "Kaşarlı Kaşarlı Kaşarlı"
+    },
+    {
+      "il": "Kastamonu",
+      "en_unlu_yemek": "Kastamonu Mantısı"
+    },
+    {
+      "il": "Kayseri",
+      "en_unlu_yemek": "Mantı"
+    },
+    {
+      "il": "Kırıkkale",
+      "en_unlu_yemek": "Pırasalı Börek"
+    },
+    {
+      "il": "Kırklareli",
+      "en_unlu_yemek": "Bulgur Pilavı"
+    },
+    {
+      "il": "Kırşehir",
+      "en_unlu_yemek": "Çöven"
+    },
+    {
+      "il": "Kilis",
+      "en_unlu_yemek": "Kilis Tava"
+    },
+    {
+      "il": "Kocaeli",
+      "en_unlu_yemek": "Pişmaniye"
+    },
+    {
+      "il": "Konya",
+      "en_unlu_yemek": "Etli Ekmek"
+    },
+    {
+      "il": "Kütahya",
+      "en_unlu_yemek": "Gedende Pilavı"
+    },
+    {
+      "il": "Malatya",
+      "en_unlu_yemek": "Kayısılı Tavuk"
+    },
+    {
+      "il": "Manisa",
+      "en_unlu_yemek": "Kelle Paça Çorbası"
+    },
+    {
+      "il": "Mardin",
+      "en_unlu_yemek": "Kaburga Dolması"
+    },
+    {
+      "il": "Mersin",
+      "en_unlu_yemek": "Şiş Kebap"
+    },
+    {
+      "il": "Muğla",
+      "en_unlu_yemek": "Dalyan Köfte"
+    },
+    {
+      "il": "Muş",
+      "en_unlu_yemek": "İsli Patlıcan"
+    },
+    {
+      "il": "Nevşehir",
+      "en_unlu_yemek": "Testi Kebabı"
+    },
+    {
+      "il": "Niğde",
+      "en_unlu_yemek": "Niğde Tatlısı"
+    },
+    {
+      "il": "Ordu",
+      "en_unlu_yemek": "Peynirli Bulgur Köftesi"
+    },
+    {
+      "il": "Osmaniye",
+      "en_unlu_yemek": "Macun"
+    },
+    {
+      "il": "Rize",
+      "en_unlu_yemek": "Hamsi Kuşu"
+    },
+    {
+      "il": "Sakarya",
+      "en_unlu_yemek": "Pişmaniye"
+    },
+    {
+      "il": "Samsun",
+      "en_unlu_yemek": "Bafra Pidesi"
+    },
+    {
+      "il": "Siirt",
+      "en_unlu_yemek": "Cızlak"
+    },
+    {
+      "il": "Sinop",
+      "en_unlu_yemek": "Sinop Mantısı"
+    },
+    {
+      "il": "Sivas",
+      "en_unlu_yemek": "Madımak Yemeği"
+    },
+    {
+      "il": "Şanlıurfa",
+      "en_unlu_yemek": "Çiğ Köfte"
+    },
+    {
+      "il": "Şırnak",
+      "en_unlu_yemek": "Cızlak"
+    },
+    {
+      "il": "Tekirdağ",
+      "en_unlu_yemek": "Tekirdağ Köftesi"
+    },
+    {
+      "il": "Tokat",
+      "en_unlu_yemek": "Çullama"
+    },
+    {
+      "il": "Trabzon",
+      "en_unlu_yemek": "Kuymak"
+    },
+    {
+      "il": "Tunceli",
+      "en_unlu_yemek": "Dolma"
+    },
+    {
+      "il": "Uşak",
+      "en_unlu_yemek": "Tarhana Çorbası"
+    },
+    {
+      "il": "Van",
+      "en_unlu_yemek": "Çılbır"
+    },
+    {
+      "il": "Yalova",
+      "en_unlu_yemek": "Karalahana Çorbası"
+    },
+    {
+      "il": "Yozgat",
+      "en_unlu_yemek": "Yozgat Sosu"
+    },
+    {
+      "il": "Zonguldak",
+      "en_unlu_yemek": "Karadeniz Pidesi"
+    }
+  ]
+}
