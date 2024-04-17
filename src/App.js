@@ -1,6 +1,4 @@
 import './App.css';
-import iller from './iller.json';
-import yemekler from './yemekler.json';
 import Map from 'ol/Map.js';
 import OSM from 'ol/source/OSM.js';
 import TileLayer from 'ol/layer/Tile.js';
@@ -13,8 +11,6 @@ import GeoJSON from 'ol/format/GeoJSON';
 import Style from 'ol/style/Style';
 import Fill from 'ol/style/Fill';
 import Stroke from 'ol/style/Stroke';
-import Text from 'ol/style/Text';
-import { Point } from 'ol/geom';
 
 
 
@@ -23,6 +19,8 @@ function App() {
   const [mapState, setMapState] = useState()
   const [buttonDisabled, setButtonDisabled] = useState(false)
   const [showModal, setshowModal] = useState()
+  const [iller, setiller] = useState({})
+  const [yemekler, setyemekler] = useState({})
 
   const hlLayer = new VectorLayer({
     source: new VectorSource({
@@ -38,8 +36,39 @@ function App() {
   const geoJson = new GeoJSON({ dataProjection: "EPSG:4326", featureProjection: "EPSG:3857" })
 
   useEffect(() => {
+    fetch('/iller.json'
+      , {
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        }
+      }
+    )
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (myJson) {
+        setiller(myJson);
+      });
+    fetch('/yemekler.json'
+      , {
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        }
+      }
+    )
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (myJson) {
+        setyemekler(myJson);
+      });
+  } , [])
+
+  useEffect(() => {
     let map;
-    if (mapRef) {
+    if (mapRef , iller.features) {
       map = new Map({
         layers: [
           new TileLayer({
@@ -77,7 +106,7 @@ function App() {
         setMapState();
       }
     }
-  }, [mapRef])
+  }, [mapRef , iller])
 
   const handleClick = () => {
     setButtonDisabled(true)
